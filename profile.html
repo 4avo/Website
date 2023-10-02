@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="profile.css">
   <link rel="stylesheet" href="navigation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
   <body>
 
@@ -13,25 +14,54 @@
       <nav class="navbar">
         <div class="nav-menu hide">
           <a href="main-page.html">Home</a>
-            <a href="profile.html">Profile</a>
+            <a class="active" href="profile.html">Profile</a>
             <a href="dashboard.html">Dashboard</a>
             <a href="faq.html">FAQ</a>
             <a href="about.html">Blog</a>
-            <a href="motivation.html">Motivation</a>
         </div>
       </nav>
     </header>
-    <main>
-  
-  
-      <section class="card">
-        <img src="images/373268399_320091127248694_5650937161587757347_n-2.jpg" alt="John" style="width:100%">
-        <h1>Chavdar Tsvetkov</h1>
-        <p class="title">Student at HZ</p>
-        <p class="title">First Year ICT</p>
-        
-        <a href="about.html"><p><button>Contact</button></p></a>
-      </section>
+    <div class="profile-section">
+      <img src="images/IMG_2414.jpg" alt="Profile Picture" class="profile-pic">
+      <div class="profile-text">
+          <h1>Chavdar Tsvetkov</h1>
+          <p>Student at HZ University of Applied Sciences</p>
+          <p>Personality: <span style="color: rgb(12, 181, 186)">Introverted</span></p>
+          <p>Eyes: <span style="color: rgb(37, 160, 0)">Green</span></p>
+          <p>Tattoos: <span style="color: rgb(152, 3, 35)">Yes</span></p>
+          <a href="#"><i class="fab fa-facebook social-icons1"></i></a>
+          <a href="#"><i class="fab fa-twitter social-icons2"></i></a>
+          <a href="#"><i class="fab fa-linkedin social-icons3"></i></a>
+        </div>
+      </div>
+  </div>
+  <div class="progress-container">
+    <div class="progress-bar" id="progress-bar">Programming skills</div>
+  </div>
+
+      <footer>
+        <nav class="navbar">
+        <div class="nav-menu hide">
+          <a href="https://hz.nl/en/">HZ website</a>
+          <a href="https://learn.hz.nl/my/">HZ learn</a>
+          <a href="https://github.com/4avo/Website/">Github</a>
+        </div>
+      </nav></footer>
+      
+      <script>
+        const progressBar = document.getElementById("progress-bar");
+        let progress = 0;
+
+        function animateProgressBar() {
+            if (progress < 95) {
+                progress++;
+                progressBar.style.width = progress + "%";
+                progressBar.innerText = "Python skills";
+                setTimeout(animateProgressBar, 20);
+        }
+      }
+        window.onload = animateProgressBar;
+    </script>
 
       
 

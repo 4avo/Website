@@ -1,33 +1,20 @@
-body {
-	height: 100vh;
-	 background: linear-gradient(90deg,#e52e71,#ff8a00);
-  
-  }
-
-table {
-    font-family: arial, sans-serif;
-    width: 100%;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #006eff;
-  }
-
-  tr:nth-child(odd) {
-    background-color: #3ca580;
-  }
-
-  .navbar{
-	display: flex;
-	height: 5rem;
-	justify-content: space-between;
-	align-items: center;
-	padding-top: 1rem;
-
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	transition: all 0.4s;
 }
+	
+	table {
+		font-family: arial, sans-serif;
+		width: 100%;
+	}
+	
+	td, th {
+		border: 3px solid #bbb5b5;
+		text-align: left;
+		padding: 8px;
+		color: white;
+	}
+
+	tr:hover {background-color: rgb(157, 148, 43);}

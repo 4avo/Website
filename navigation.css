@@ -1,3 +1,10 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	transition: all 1s;
+}
+
 .navbar{
 	display: flex;
 	height: 5rem;
@@ -9,10 +16,10 @@
 
 .nav-menu{
 	position: fixed;
-	width: 94%;
+	width: 40%;
 	top: 6rem;
 	left: 18px;
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(255, 255, 525);
 	font-weight: 600;
 
 }
@@ -20,7 +27,7 @@
 	display: block;
 	text-align: center;
 	padding: 5px 0;
-  color: black;
+  	color: black;
 }
 .nav-menu a:hover{
 	background-color: rgb(0, 0, 0);
@@ -41,12 +48,10 @@
 		padding: 15px 20px;
 	}
 	.nav-menu a:hover{
-		background-color: rgb(0, 0, 0);
+		background-color: #ec31bd;
 		border-radius: 5px;
 	}
-	.hamburger-menu{
-		display: none;
-	}
+
 .navbar{
 	box-sizing: border-box;
 	margin: 0;
@@ -62,3 +67,24 @@
 	font-size: 1.3rem;
 	font-weight: bold;
 }
+
+.active {
+	background-color: #04AA6D;
+  }
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-top: sold black;
+
+}
+
+body {
+	background: url("images/840843081452.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+  }
+
+

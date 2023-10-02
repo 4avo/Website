@@ -1,42 +1,61 @@
-.card {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	max-width: 300px;
-	text-align: center;	
-	justify-content: center;
-	position: absolute;
-	left: 40%;
-	top: 15%;
-  }
-  
-  .title{
-	color: rgb(0, 0, 0);
-	font-size: 24px;
-  }
-  
-  .card button {
-	margin: 0;
-	border: none;
-	outline: 0;
-	padding: 8px;
+.profile-section {
 	color: white;
-	background-color: #000;
-	text-align: center;
-	cursor: pointer;
-	width: 100%;
-	font-size: 18px;
-  }
-  
-   a {
-	text-decoration: none;
-	font-size: 22px;
-	color: rgb(255, 255, 255);
-  }
-  
-  body {
-	height: 100vh;
-	 background: linear-gradient(90deg,#e52e71,#ff8a00);
-  display: flex;
-  justify-content: center;
-  }
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+/* CSS for the profile picture */
+.profile-pic {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+/* CSS for the text below the profile picture */
+.profile-text {
+	font-size: 24px;
+}
+
+.social-icons1 {
+	font-size: 24px;
+	color: rgb(0, 68, 255); /* Change the icon color to yellow */
+}
+
+.social-icons2 {
+	font-size: 24px;
+	color: rgb(30, 132, 249); /* Change the icon color to yellow */
+}
+
+.social-icons3 {
+	font-size: 24px;
+	color: rgb(17, 207, 221); /* Change the icon color to yellow */
+}
+.progress-container {
+	width: 50%; /* Set the desired width for the progress container */
+	background-color: #f0f0f0;
+	border-radius: 5px;
+	overflow: hidden;
+	position: absolute;
+	margin-right: 50%;
+}
+
+/* CSS for the progress bar */
+.progress-bar {
+	width: 0;
+	height: 30px;
+	background-color: rgb(203, 15, 125);
+	color: white;
+	line-height: 30px;
+	text-align: right;
+	padding-right: 10px; /* Add space for the percentage text */
+	transition: width 1s ease-in-out; /* Animation duration and easing */}
 
 
+
+.green-text{
+	color: green;
+
+}
+]

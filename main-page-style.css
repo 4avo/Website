@@ -21,12 +21,6 @@ body {
 	color: rgb(255, 255, 255);
 }
 
-body {
-	height: 100vh;
-	 background: linear-gradient(90deg,#e52e71,#ff8a00);
-  
-  }
-  
   
   .content{
 	text-align: center;
