@@ -32,30 +32,22 @@
 	font-size: 24px;
 	color: rgb(17, 207, 221); /* Change the icon color to yellow */
 }
-.progress-container {
-	width: 50%; /* Set the desired width for the progress container */
-	background-color: #f0f0f0;
-	border-radius: 5px;
-	overflow: hidden;
-	position: absolute;
-	margin-right: 50%;
-}
-
-/* CSS for the progress bar */
-.progress-bar {
-	width: 0;
-	height: 30px;
-	background-color: rgb(203, 15, 125);
-	color: white;
-	line-height: 30px;
-	text-align: right;
-	padding-right: 10px; /* Add space for the percentage text */
-	transition: width 1s ease-in-out; /* Animation duration and easing */}
-
-
 
 .green-text{
 	color: green;
 
 }
-]
+
+.side-content {
+    width: 800px; /* Set a fixed width for the right-side content */
+    padding: 20px; /* Add padding for spacing */
+	color: white;
+}
+
+.side-content h2{
+	font-size: 40px;
+}
+
+.side-content p {
+	font-size: 30px;
+}
