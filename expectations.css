@@ -1,0 +1,119 @@
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.quote {
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.expectations {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.expectations h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.expectations p {
+    font-size: 18px;
+}
+
+
+.navbar_blog{
+	display: flex;
+	height: 5rem;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 1rem;
+	z-index: 2;
+}
+
+.nav-menu_blog{
+	position: fixed;
+	width: 40%;
+	top: 6rem;
+	left: 18px;
+	background-color: rgb(255, 255, 525);
+	font-weight: 600;
+	z-index: 2;
+
+}
+.nav-menu_blog a{
+	display: block;
+	text-align: center;
+	padding: 5px 0;
+  	color: black;
+}
+.nav-menu_blog a:hover{
+	background-color: rgb(141, 225, 14);
+}
+
+	.navbar_blog{
+		justify-content: space-around;
+	}
+	.nav-menu_blog{
+		display: block;
+		position: static;
+		width: auto;
+		margin-right:20px;
+		background: none;
+	}
+	.nav-menu_blog a{
+		display: inline-block;
+		padding: 15px 20px;
+	}
+	.nav-menu_blog a:hover{
+		background-color: #bbee15;
+		border-radius: 5px;
+	}
+
+.navbar_blog{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	transition: all 0.4s;
+}
+.navbar_blog {
+	font-family: sans-serif;
+}
+.navbar_blog a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	font-size: 1.3rem;
+	font-weight: bold;
+}
