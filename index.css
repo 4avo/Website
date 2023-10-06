@@ -21,20 +21,28 @@ body {
 	color: rgb(255, 255, 255);
 }
 
-  
-  .content{
+
+h1 {
+	font-size: 50px;
 	text-align: center;
-  
-  }
-  .content h1{
-	font-size: 100px;
-	color: white;
-	font-weight: 600;
-  
-  }
- 
-  .content h2{
-	font-size: 36px;
-	color: white;
-	font-weight: 600;
-  }
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+#description{
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+}
+
+#description>p{
+    padding: 1.5rem;
+    border: 2px solid #6aff00;
+    border-radius: 5px;
+	font-size: 24px;
+}
+
